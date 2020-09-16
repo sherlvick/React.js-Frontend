@@ -22,7 +22,7 @@ function App() {
         return;
       }
    
-      axios.get(`http://localhost:4000/verifyToken?token=${token}`).then(response => {
+      axios.get(`http://192.168.0.175:4000/verifyToken?token=${token}`).then(response => {
         setUserSession(response.data.token, response.data.user);
         setAuthLoading(false);
       }).catch(error => {
