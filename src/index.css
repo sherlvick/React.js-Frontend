@@ -40,7 +40,7 @@ code {
   border-bottom: 5px solid #999;
 }
 .nav a {
-  padding: 20px;
+  padding: 10px;
   color: #0072ff;
   text-decoration: none;
   margin-left: 3px;
@@ -79,4 +79,13 @@ code {
   position: relative;
   left: 22%;
   width: 50%;
+}
+.welcomeUser{
+  margin-left: 12px;
+  color: #000000;
+}
+.profileInputContainer_1{
+  padding: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
